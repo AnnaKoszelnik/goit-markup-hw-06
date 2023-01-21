@@ -80,7 +80,11 @@
                 <div class="signup-form">
                   <label>
                     Imię
-                    <input class="input" type="text" name="user-name" />
+                    <input
+                      class="input modal-svg-1"
+                      type="text"
+                      name="user-name"
+                    />
                   </label>
                   <label>
                     Telefon
@@ -444,6 +448,28 @@
               </svg>
             </li>
           </ul>
+        </div>
+        <div class="newsletter">
+          <span class="footer-so-me">Zapisz się do newslettera</span>
+          <form>
+            <label>
+              <input
+                class="newsletter-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="newsletter-button" type="submit">
+              Zapisz się
+              <svg width="24" height="24">
+                <use
+                  href="./images/modal.svg#icon-send"
+                  class="send-icon"
+                ></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>

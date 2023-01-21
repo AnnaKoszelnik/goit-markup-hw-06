@@ -575,10 +575,6 @@ body {
   padding: 49px 45px 49px 24px;
 }
 
-label {
-  display: flex;
-}
-
 .signup-button {
   position: absolute;
   font-style: normal;
@@ -625,15 +621,58 @@ label {
   right: 40px;
 }
 
-label {
-  margin-bottom: 10px;
-  display: block;
-}
-
 .input {
   display: block;
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+
+.modal-svg-1 {
+  background-image: url("./images/modal.svg#icon-person");
+}
+
+.newsletter-button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #2196f3;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  position: relative;
+  left: 370px;
+}
+
+.newsletter {
+  margin-left: 78px;
+}
+
+.newsletter-input {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  align-items: center;
+  letter-spacing: 0.03em;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  position: absolute;
+}
+
+.send-icon {
+  position: absolute;
+  fill: #ffffff;
 }

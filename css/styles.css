@@ -733,11 +733,10 @@ body {
   padding-left: 16px;
 }
 
+.form-input:focus-within,
 .input:focus {
   fill: var(--hover-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid var(--hover-color);
-  border-radius: 4px;
-  outline: none;
+  border-color: var(--hover-color);
 }

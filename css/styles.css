@@ -627,6 +627,7 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-bottom: 10px;
+  padding-left: 42px;
 }
 
 .modal-svg-1 {
@@ -676,14 +677,26 @@ body {
 .send-icon {
   position: absolute;
   fill: #ffffff;
-  bottom: 14px;
+  bottom: 11px;
   right: 24px;
 }
 
 .person-icon {
   position: absolute;
-  top: 24px;
-  left: 10px;
+  top: 30px;
+  left: 12px;
+}
+
+.phone-icon {
+  position: absolute;
+  top: 97px;
+  left: 12px;
+}
+
+.email-icon {
+  position: absolute;
+  top: 166px;
+  left: 12px;
 }
 
 .form-labels {

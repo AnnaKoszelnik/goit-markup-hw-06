@@ -617,6 +617,16 @@ body {
   position: absolute;
   bottom: 120px;
   right: 40px;
+  color: var(--second-color);
+}
+.signup-checkbox {
+  appearance: none;
+}
+
+.checkbox::before {
+  position: absolute;
+  left: -18px;
+  top: 2px;
 }
 
 .input {

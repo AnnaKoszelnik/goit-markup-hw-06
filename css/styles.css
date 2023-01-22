@@ -623,9 +623,9 @@ body {
   appearance: none;
 }
 
-.checkbox::before {
+.checkbox {
   position: absolute;
-  left: -18px;
+  left: -23px;
   top: 2px;
 }
 

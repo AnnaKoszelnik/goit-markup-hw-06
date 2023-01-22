@@ -601,12 +601,11 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin: 0;
-  top: 40px;
-  left: 40px;
+  margin: 40px 0 12px 0;
+
+  left: 70px;
 }
 
 .signup-form {
@@ -627,6 +626,7 @@ body {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  margin-bottom: 10px;
 }
 
 .modal-svg-1 {
@@ -647,6 +647,7 @@ body {
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  padding: 10px 76px 10px 42px;
   position: relative;
   left: 370px;
 }
@@ -675,4 +676,37 @@ body {
 .send-icon {
   position: absolute;
   fill: #ffffff;
+  bottom: 14px;
+  right: 24px;
+}
+
+.person-icon {
+  position: absolute;
+  top: 24px;
+  left: 10px;
+}
+
+.form-labels {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+  margin-bottom: 4px;
+}
+
+.form-comment {
+  resize: none;
+  height: 96px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  padding: 12px 16px;
+}
+
+.form-comment::placeholder {
+  color: rgba(117, 117, 117, 0.5);
 }

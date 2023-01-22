@@ -480,7 +480,6 @@ body {
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
-  transform: translate(12px, 50%);
 }
 
 .modal {
@@ -628,6 +627,7 @@ body {
   border-radius: 4px;
   margin-bottom: 10px;
   padding-left: 42px;
+  outline: none;
 }
 
 .modal-svg-1 {
@@ -672,6 +672,10 @@ body {
   border-radius: 4px;
   background-color: #2f303a;
   position: absolute;
+}
+
+.newsletter-form {
+  margin-top: 20px;
 }
 
 .send-icon {
@@ -722,4 +726,18 @@ body {
 
 .form-comment::placeholder {
   color: rgba(117, 117, 117, 0.5);
+}
+
+.newsletter-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
+}
+
+.input:focus {
+  fill: var(--hover-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid var(--hover-color);
+  border-radius: 4px;
+  outline: none;
 }

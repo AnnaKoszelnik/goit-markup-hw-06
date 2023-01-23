@@ -28,9 +28,11 @@
         <nav class="nav">
           <ul class="menu">
             <li class="underline-1">
-              <a class="link" href="./index.html">Agencja</a>
+              <a class="link is-active" href="./index.html">Agencja</a>
             </li>
-            <li><a class="link" href="./portfolio.html">Portfolio</a></li>
+            <li>
+              <a class="link" href="./portfolio.html">Portfolio</a>
+            </li>
             <li><a class="link" href="">Kontakt</a></li>
           </ul>
         </nav>
@@ -111,15 +113,15 @@
                 </div>
 
                 <input
+                  id="check"
                   class="signup-checkbox"
                   type="checkbox"
                   name="user-terms-and-conditions"
-                  value="user-terms-and-conditions"
-                  checked
                 />
-                <label class="signup-terms">
-                  Oświadczam, iż akceptuję <a href="">Regulamin</a> i
-                  <a href=""> Politykę Prywatności. </a>
+                <label for="check" class="signup-terms">
+                  Oświadczam, iż akceptuję
+                  <a class="logo-blue" href="">Regulamin</a> i
+                  <a class="logo-blue" href=""> Politykę Prywatności. </a>
                 </label>
                 <button class="signup-button" type="submit">Wyślij</button>
               </form>
